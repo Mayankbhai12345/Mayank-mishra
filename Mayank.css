@@ -1,0 +1,18 @@
+#board {
+  display: grid;
+  grid-template-columns: repeat(4, 80px);
+  gap: 5px;
+  margin: 20px auto;
+  width: max-content;
+}
+
+.cell {
+  width: 80px;
+  height: 80px;
+  background: #ddd;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+.red { background: red; }
+.blue { background: blue; }
